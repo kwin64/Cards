@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/taskFromIgnat/static/css/main.3c78222b.chunk.css",
+    "main.js": "/taskFromIgnat/static/js/main.7b0a83b1.chunk.js",
+    "main.js.map": "/taskFromIgnat/static/js/main.7b0a83b1.chunk.js.map",
+    "runtime-main.js": "/taskFromIgnat/static/js/runtime-main.fa604904.js",
+    "runtime-main.js.map": "/taskFromIgnat/static/js/runtime-main.fa604904.js.map",
+    "static/js/2.36d07808.chunk.js": "/taskFromIgnat/static/js/2.36d07808.chunk.js",
+    "static/js/2.36d07808.chunk.js.map": "/taskFromIgnat/static/js/2.36d07808.chunk.js.map",
+    "static/js/3.383ddaeb.chunk.js": "/taskFromIgnat/static/js/3.383ddaeb.chunk.js",
+    "static/js/3.383ddaeb.chunk.js.map": "/taskFromIgnat/static/js/3.383ddaeb.chunk.js.map",
+    "index.html": "/taskFromIgnat/index.html",
+    "static/css/main.3c78222b.chunk.css.map": "/taskFromIgnat/static/css/main.3c78222b.chunk.css.map",
+    "static/js/2.36d07808.chunk.js.LICENSE.txt": "/taskFromIgnat/static/js/2.36d07808.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa604904.js",
+    "static/js/2.36d07808.chunk.js",
+    "static/css/main.3c78222b.chunk.css",
+    "static/js/main.7b0a83b1.chunk.js"
+  ]
+}
