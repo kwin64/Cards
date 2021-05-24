@@ -1,20 +1,27 @@
 import React from 'react';
+import {Redirect, Route, Switch} from 'react-router-dom';
 import './App.css';
+import {Profile} from "./components/Profile";
+import {Authorization} from "./components/Authorization";
+import {Registration} from "./components/Registration";
+import {UpdatePassword} from "./components/UpdatePassword";
+import {EnteringPassword} from './components/EnteringPassword';
+import {Test} from "./components/Test";
+import {ErrorPage} from "./components/ErrorPage";
 
-function App() {
+export function App() {
     return (
         <div>
-            <ul>
-                <li>loginization</li>
-                <li>Registration</li>
-                <li>Profile</li>
-                <li>404</li>
-                <li>Password recovery</li>
-                <li>Entering the password</li>
-                <li>Test</li>
-            </ul>
+            <Switch>
+                <Route exact path={'/'} render={() => <Profile/>}/>
+                <Route path={'/authorization'} render={() => <Authorization/>}/>
+                <Route path={'/registration'} render={() => <Registration/>}/>
+                <Route path={'/404'} render={() => <ErrorPage/>}/>
+                <Route path={'/update'} render={() => <UpdatePassword/>}/>
+                <Route path={'/enter'} render={() => <EnteringPassword/>}/>
+                <Route path={'/test'} render={() => <Test/>}/>
+                <Redirect from={'*'} to={'/404'}/>
+            </Switch>
         </div>
-    );
+    )
 }
-
-export default App;
