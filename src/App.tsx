@@ -1,6 +1,6 @@
 import React from 'react';
 import {Redirect, Route, Switch} from 'react-router-dom';
-import './App.css';
+import './App.module.css';
 import {Profile} from "./components/Profile";
 import {Authorization} from "./components/Authorization";
 import {Registration} from "./components/Registration";
