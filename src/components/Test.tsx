@@ -16,6 +16,18 @@ export const Test: React.FC<PropsTestType> = props => {
             <input className={s.checkboxInput}
                    type="checkbox"
             />
+            <input className={s.checkboxInput}
+                   type="checkbox"
+            />
+            <input className={s.checkboxInput}
+                   type="checkbox"
+                   disabled={true}
+            />
+            <input className={s.checkboxInput}
+                   type="checkbox"
+                   disabled={true}
+                   checked={true}
+            />
         </div>
     );
 }
