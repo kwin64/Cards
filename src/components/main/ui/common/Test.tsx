@@ -1,5 +1,7 @@
 import React from 'react';
 import s from './test.module.css'
+import {ButtonTest} from "./button/ButtonTest";
+import {InputTest} from "./input/InputTest";
 
 type PropsTestType = {}
 
@@ -9,10 +11,9 @@ export const Test: React.FC<PropsTestType> = props => {
 
     return (
         <div className={s.container}>
-            <input className={s.searchInput}
-                   placeholder='Search..'
-            />
-            <button>X</button>
+            <ButtonTest/>
+            <InputTest/>
+
             <input className={s.checkboxInput}
                    type="checkbox"
             />
