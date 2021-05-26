@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter} from "react-router-dom";
-import { App } from './App';
+import {HashRouter} from "react-router-dom";
+import {App} from './components/ui/App';
+import {Provider} from 'react-redux';
 
 ReactDOM.render(
-    <BrowserRouter>
-        <App/>
-    </BrowserRouter>
+    <HashRouter>
+        <Provider store={store}>
+            <App/>
+        </Provider>
+    </HashRouter>
     , document.getElementById('root')
 );
 

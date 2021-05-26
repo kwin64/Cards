@@ -2,7 +2,7 @@ import React from 'react';
 
 type PropsEnteringPasswordType = {}
 
-export const EnteringPassword: React.FC<PropsEnteringPasswordType> = props => {
+export const RecoveryPassword: React.FC<PropsEnteringPasswordType> = props => {
 
     const {} = props
 
